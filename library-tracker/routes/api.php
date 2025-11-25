@@ -1,6 +1,7 @@
 <?php
 
 use App\Support\AdvancedRoute;
+use A
 
 Route::group([
     'as'     => '/v1',
@@ -12,4 +13,7 @@ Route::group([
         'loans'   => \App\Http\Controllers\API\LoanAPIController::class,
         'users'   => \App\Http\Controllers\API\UserAPIController::class,
     ]);
+
+    Route::put('/v1/loans/extend/{id}',)
 });
+
